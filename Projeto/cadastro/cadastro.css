@@ -1,0 +1,138 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background: #ff5a5a;
+}
+
+/*Cabeçalho*/
+
+header {
+    
+    border-bottom: solid 1px rgb(223, 185, 185);
+    background: white;
+}
+
+.container-fluid {
+    height: 160px;
+    padding: 1% auto 1%;
+    margin-top: 5px;
+}
+
+.row {
+    height: 100%;
+}
+
+.logo {
+    height: 80px;
+    width: 80px;
+    border-radius: 50%;
+}
+
+.heart {
+    border-radius: 50%;
+    height: 50px;
+    width: 50px;
+}
+
+.heart:hover {
+    height: 55px;
+    width: 55px;
+}
+
+.bag {
+    height: 50px;
+    width: 50px;
+}
+
+.bag:hover {
+    height: 55px;
+    width: 55px;
+}
+
+p {
+    font-family: "Roboto Slab", serif;
+    color: rgb(223, 108, 108);
+    margin: 0;
+}
+
+a {
+    text-decoration: none;
+    font-family: "Roboto Slab", serif;
+    color: rgb(223, 108, 108);
+    margin: 0;
+}
+
+a:hover{
+    text-decoration: underline;
+}
+
+/*Formulário*/
+
+.formulario {
+    background: white;
+}
+
+.formulario label {
+    text-align: center;
+    width: 100%;
+    font-family: "Roboto Slab", serif;
+    color: rgb(223, 108, 108);
+}
+
+.name {
+    margin-top: 5%;
+}
+
+.form-control {
+    width: 90%;
+    margin-left: 5%;
+}
+
+#emailHelp {
+    text-align: center;
+    font-family: "Roboto Slab", serif;
+    color: rgb(223, 108, 108);
+}
+
+.form-check-input {
+    margin-left: 0 !important;
+}
+
+.form-check-label {
+    width: 120px !important;
+}
+
+.polit {
+ width: 180px !important;
+}
+
+.btn-danger {
+    display: block;
+}
+
+/*Rodapé*/
+
+footer {
+    background-color: rgb(189, 52, 52);
+    margin-top: 3%;
+}
+
+.foot {
+    height: 100%;
+}
+
+.foot p {
+    color: white;
+}
+
+footer h3 {
+    color: white;
+}
+
+.icons img {
+    width: 50px;
+    height: 50px;
+}
